@@ -28,7 +28,7 @@ if numero >=1 and numero <= 10 :
 else :
     print("ERROR , el numeor numero ingresado es incorrecto..")
 """
-
+"""
 #desarrollar un algoritmo que nos permita ingresar una cantidad de personas , La computadora debe
 #pedir la edad de cada una y finalmente mostrar el porcentaje de personas que es mayor de edad
 
@@ -48,3 +48,19 @@ for i in range(1,cantidadPersonas+1) :
 porcentaje = (contadorEdadMayor / cantidadPersonas)*100
 
 print(f"El porcentaje de personas mayores de {porcentaje}%")
+
+
+
+
+"""
+#4) Dada una lista con valores repetidos:[1,3,5,3,7,1,9,5,3]
+#● Crear una nueva lista sin elementos repetidos.
+#● Mostrar el resultado
+datos = [1,3,5,3,7,1,9,5,3]
+lista_sinRepetir = []
+
+for elemento in datos:
+    if elemento not in lista_sinRepetir:
+        lista_sinRepetir.append(elemento)
+
+print(lista_sinRepetir)
